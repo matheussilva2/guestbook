@@ -1,0 +1,21 @@
+{
+	"name": "produtil/guestbook",
+	"description": "",
+	"minimum-stability": "beta",
+	"license": "MIT",
+	"authors": [{
+		"name": "Matheus Silva",
+		"email": "matheusnascimentoeoq@gmail.com"
+	}],
+	"require": {
+		"php": "^7.2"
+	},
+	"autoload": {
+		"psr-4": {
+			"Produtil\\": "src"
+		},
+		"files": [
+			"src/Config.php"
+		]
+	}
+}
